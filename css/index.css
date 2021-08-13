@@ -134,3 +134,128 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/*Media Queries*/
+@media(max-width:1100px){
+    body{
+        margin-bottom:20%;
+    }
+    .title-container div{
+        width:100%;
+    }
+    .artists-container{
+        flex-flow:column;
+        align-items:center;
+    }
+    img{
+        height:25rem;
+    }
+    .title-container hr{
+        width:100%;
+    }
+    .artist{
+        width:60%;
+    }
+    .artist img{
+        width:60%;
+    }
+}  
+
+@media(max-width:800px){
+    body{
+        margin-bottom:20%;
+    }
+    nav{
+        width:40%;
+    }
+    a{
+        font-size:2rem;	
+    }
+    .title-container div{
+        width:100%;
+    }
+    .artists-container{
+        flex-flow:column;
+        align-items:center;
+    }
+    img{
+        height:25rem;
+    }
+    .title-container hr{
+        width:100%;
+    }
+    .artist{
+        width:80%;
+    }
+    .artist img{
+        width:60%;
+    }
+}
+
+@media(max-width:500px){
+    body{
+        margin-bottom:20%;
+    }
+    nav{
+        width:45%;
+    }
+    a{
+        font-size:1.5rem;	
+    }
+    .title-container div{
+        width:100%;
+    }
+    .artists-container{
+        flex-flow:column;
+        align-items:center;
+    }
+    img{
+        height:10rem;
+    }
+    h1{
+        font-size:3rem;
+    }
+    .title-container hr{
+        width:100%;
+    }
+    .artist{
+        width:60%;
+        font-size:0.7rem;
+    }
+    .artist img{
+        width:80%;
+    }
+}
+
+@media(max-width:400px){
+    body{
+        margin-bottom:20%;
+    }
+    nav{
+        width:60%;
+    }
+    a{
+        font-size:1.5rem;	
+    }
+    .title-container div{
+        width:100%;
+    }
+    .artists-container{
+        flex-flow:column;
+        align-items:center;
+    }
+    h1{
+        font-size:3rem;
+    }
+    .title-container hr{
+        width:100%;
+    }
+    .artist{
+        width:60%;
+        font-size:0.6rem;
+    }
+    .artist img{
+        width:60%;
+        height:20%;
+    }
+}
